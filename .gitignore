@@ -1,0 +1,35 @@
+# Зависимости
+/vendor/
+/node_modules/
+
+# Конфигурация окружения
+/.env
+/.env.local
+/.env.*.local
+
+# Кэш и логи
+/storage/logs/*
+/storage/cache/
+!/storage/logs/.gitkeep
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+/.idea
+/.vscode
+*.swp
+*.swo
+
+# Тестовые файлы
+/coverage
+.phpunit.result.cache
+
+# Деплой
+/deploy
+/build
