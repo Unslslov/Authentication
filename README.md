@@ -32,5 +32,5 @@ CREATE TABLE users (id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,name VARCHAR(100)
 exit
 ```
 
-### 6. Зайдите на localhost:8080:
+### 6. Зайдите на localhost:8080
 
